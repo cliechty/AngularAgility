@@ -1,5 +1,5 @@
 /*
-angular-agility "version":"0.8.18" @ 2014-11-09T18:26:01
+angular-agility "version":"0.8.19" @ 2014-11-13T09:44:02
 Copyright (c) 2014 - John Culviner
 Licensed under the MIT license
 */
@@ -1878,11 +1878,6 @@ angular
           }
 
           element.on('click', submit);
-
-          if (attrs.type === 'submit') {
-            //this should be the form's default 'on enter' behavior for submission
-            ngForm.$aaFormExtensions.$onEnterKey = submit;
-          }
         }
       };
     }]);
